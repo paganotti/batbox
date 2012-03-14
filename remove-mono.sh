@@ -12,3 +12,4 @@ for dir in /usr/bin /usr/share/man/man1 /usr/share/man/man3 /usr/share/man/man5;
       rm ${i}
     done);asdsada
 done
+zdfsfsd
