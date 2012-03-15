@@ -1,0 +1,142 @@
+From paganotti@paganotti.local  Wed Oct 26 20:10:02 2011
+Return-Path: <paganotti@paganotti.local>
+X-Original-To: paganotti
+Delivered-To: paganotti@paganotti.local
+Received: by paganotti.local (Postfix, from userid 501)
+	id 1C243368532D; Wed, 26 Oct 2011 20:10:01 +0200 (CEST)
+From: paganotti@paganotti.local (Cron Daemon)
+To: paganotti@paganotti.local
+Subject: Cron <paganotti@paganotti> /usr/bin/php /Users/paganotti/Sites/ow/ow_cron/run.php
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=paganotti>
+X-Cron-Env: <USER=paganotti>
+X-Cron-Env: <HOME=/Users/paganotti>
+Message-Id: <20111026181002.1C243368532D@paganotti.local>
+Date: Wed, 26 Oct 2011 20:10:01 +0200 (CEST)
+Status: RO
+
+
+    	<style>
+    		.ow_debug_cont{padding:15px 0;width:80%;margin:0 auto;}
+    		.ow_debug_body{background:#fff;border:4px double;padding:5px;}
+    		.ow_debug_cap{font:bold 13px Tahoma;color:#fff;padding:5px;border:1px solid #000;width:250px;margin-top:-20px;}
+    		.ow_debug_body .notice{background:#fdf403;color:#555;}
+    		.ow_debug_body .warning{background:#f8b423;color:#555;}
+    		.ow_debug_body .error{background:#c10505;color:#fff;}
+    		.ow_debug_body .exception{background:#093dd3;color:#fff;}
+    		.ow_debug_body .vardump{background:#333;color:#fff;}
+    		.vardumper .string{color:green}
+    		.vardumper .null{color:blue}
+    		.vardumper .array{color:blue}
+            .vardumper .bool{color:blue}
+    		.vardumper .property{color:brown}
+    		.vardumper .number{color:red}
+            .vardumper .class{color:black;}
+            .vardumper .class_prop{color:brown;}
+    	</style>
+    	
+    		<div class="ow_debug_cont">
+    			<div class="ow_debug_body">
+    				<div class="ow_debug_cap exception">OW Debug - Exception</div>
+    				<table>
+    					<tr>
+    						<td class="lbl">Message:</td>
+    						<td class="cnt">Can't find master page `'.html_document.'` !</td>
+    					</tr>
+    					<tr>
+    						<td class="lbl">File:</td>
+    						<td class="cnt">/Users/paganotti/Sites/ow/ow_core/theme_manager.php</td>
+    					</tr>
+    					<tr>
+    						<td class="lbl">Line:</td>
+    						<td class="cnt">230</td>
+    					</tr>
+                        <tr>
+    						<td class="lbl">Trace:</td>
+    						<td class="cnt"><pre>#0 /Users/paganotti/Sites/ow/ow_core/application.php(432): OW_ThemeManager->getMasterPageTemplate('html_document')
+#1 /Users/paganotti/Sites/ow/ow_core/application.php(186): OW_Application->newHtmlDocument()
+#2 /Users/paganotti/Sites/ow/ow_cron/run.php(43): OW_Application->init()
+#3 {main}</pre></td>
+    					</tr>
+                        <tr>
+    						<td class="lbl">Type:</td>
+    						<td class="cnt" style="color:red;">InvalidArgumentException</td>
+    					</tr>
+                        
+    				</table>
+    			</div>
+    		</div>
+    		
+
+From paganotti@paganotti.local  Wed Oct 26 20:10:11 2011
+Return-Path: <paganotti@paganotti.local>
+X-Original-To: paganotti
+Delivered-To: paganotti@paganotti.local
+Received: by paganotti.local (Postfix, from userid 501)
+	id 15C423685313; Wed, 26 Oct 2011 20:10:01 +0200 (CEST)
+From: paganotti@paganotti.local (Cron Daemon)
+To: paganotti@paganotti.local
+Subject: Cron <paganotti@paganotti> /usr/bin/php /Users/paganotti/Sites/ow/ow_cron/run.php
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=paganotti>
+X-Cron-Env: <USER=paganotti>
+X-Cron-Env: <HOME=/Users/paganotti>
+Message-Id: <20111026181001.15C423685313@paganotti.local>
+Date: Wed, 26 Oct 2011 20:10:01 +0200 (CEST)
+Status: RO
+
+
+    	<style>
+    		.ow_debug_cont{padding:15px 0;width:80%;margin:0 auto;}
+    		.ow_debug_body{background:#fff;border:4px double;padding:5px;}
+    		.ow_debug_cap{font:bold 13px Tahoma;color:#fff;padding:5px;border:1px solid #000;width:250px;margin-top:-20px;}
+    		.ow_debug_body .notice{background:#fdf403;color:#555;}
+    		.ow_debug_body .warning{background:#f8b423;color:#555;}
+    		.ow_debug_body .error{background:#c10505;color:#fff;}
+    		.ow_debug_body .exception{background:#093dd3;color:#fff;}
+    		.ow_debug_body .vardump{background:#333;color:#fff;}
+    		.vardumper .string{color:green}
+    		.vardumper .null{color:blue}
+    		.vardumper .array{color:blue}
+            .vardumper .bool{color:blue}
+    		.vardumper .property{color:brown}
+    		.vardumper .number{color:red}
+            .vardumper .class{color:black;}
+            .vardumper .class_prop{color:brown;}
+    	</style>
+    	
+    		<div class="ow_debug_cont">
+    			<div class="ow_debug_body">
+    				<div class="ow_debug_cap exception">OW Debug - Exception</div>
+    				<table>
+    					<tr>
+    						<td class="lbl">Message:</td>
+    						<td class="cnt">Can't find master page `'.html_document.'` !</td>
+    					</tr>
+    					<tr>
+    						<td class="lbl">File:</td>
+    						<td class="cnt">/Users/paganotti/Sites/ow/ow_core/theme_manager.php</td>
+    					</tr>
+    					<tr>
+    						<td class="lbl">Line:</td>
+    						<td class="cnt">230</td>
+    					</tr>
+                        <tr>
+    						<td class="lbl">Trace:</td>
+    						<td class="cnt"><pre>#0 /Users/paganotti/Sites/ow/ow_core/application.php(432): OW_ThemeManager->getMasterPageTemplate('html_document')
+#1 /Users/paganotti/Sites/ow/ow_core/application.php(186): OW_Application->newHtmlDocument()
+#2 /Users/paganotti/Sites/ow/ow_cron/run.php(43): OW_Application->init()
+#3 {main}</pre></td>
+    					</tr>
+                        <tr>
+    						<td class="lbl">Type:</td>
+    						<td class="cnt" style="color:red;">InvalidArgumentException</td>
+    					</tr>
+                        
+    				</table>
+    			</div>
+    		</div>
+    		
+
