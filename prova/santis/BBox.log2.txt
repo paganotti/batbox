@@ -1132,3 +1132,4 @@ Debug: virtual BBObserver::~BBObserver()
 Debug: virtual BBActionManager::~BBActionManager() 
 Debug: virtual BBSvnManager::~BBSvnManager() 
 Debug: virtual BBSendReceive::~BBSendReceive() 
+ciao
