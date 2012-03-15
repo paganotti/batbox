@@ -1,0 +1,68 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                action = id; 
+                addRecord = id; 
+                browse = id; 
+                clearLog = id; 
+                closeDonateSheet = id; 
+                closeLocationsSheet = id; 
+                closePasswordSheet = id; 
+                closePrefsSheet = id; 
+                customize = id; 
+                deleteRecord = id; 
+                extract = id; 
+                goToDonateSite = id; 
+                list = id; 
+                openDonateSheet = id; 
+                openLocationsSheet = id; 
+                openPasswordSheet = id; 
+                openPrefsSheet = id; 
+                setLocation = id; 
+                setPrefs = id; 
+                showAboutBox = id; 
+                showhide = id; 
+                skipDonateSheet = id; 
+                stop = id; 
+                test = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                assumeCB = id; 
+                donatePanel = id; 
+                dropView = id; 
+                extractionView = id; 
+                fileField = id; 
+                fileView = id; 
+                keepCB = id; 
+                locationPullDown = id; 
+                locationWindow = id; 
+                overwriteCB = id; 
+                partorarCB = id; 
+                passwordField = id; 
+                passwordWindow = id; 
+                pathDisplay = id; 
+                prefsWindow = id; 
+                progressBar = id; 
+                recurseCB = id; 
+                tableView = id; 
+                taskTextField = id; 
+                textScrollView = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = DropView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = TaskController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
