@@ -1,0 +1,99 @@
+running py2app
+*** filtering dependencies ***
+257 total
+242 filtered
+0 orphaned
+15 remaining
+*** create binaries ***
+skipping python loader for extension 'PyQt4.QtCore'
+skipping python loader for extension 'PyQt4.QtGui'
+skipping python loader for extension 'pysvn._pysvn_2_6'
+*** byte compile python files ***
+skipping byte-compilation of /Library/Python/2.6/site-packages/MacFSEvents-0.2.4-py2.6-macosx-10.6-universal.egg/fsevents.py to fsevents.pyc
+skipping byte-compilation of /Library/Python/2.6/site-packages/PyQt4/__init__.py to PyQt4/__init__.pyc
+skipping byte-compilation of /Library/Python/2.6/site-packages/py2app-0.6.1-py2.6.egg/py2app/bootstrap/boot_app.py to boot_app.pyc
+skipping byte-compilation of /Library/Python/2.6/site-packages/py2app-0.6.1-py2.6.egg/py2app/bootstrap/chdir_resource.py to chdir_resource.pyc
+skipping byte-compilation of /Library/Python/2.6/site-packages/py2app-0.6.1-py2.6.egg/py2app/bootstrap/disable_linecache.py to disable_linecache.pyc
+skipping byte-compilation of /Library/Python/2.6/site-packages/pysvn-1.7.5-py2.6-macosx-10.6-universal.egg/pysvn/__init__.py to pysvn/__init__.pyc
+skipping byte-compilation of /Users/paganotti/Documents/Progetti/Python/SubBox/src/AccountSubBox.py to AccountSubBox.pyc
+byte-compiling /Users/paganotti/Documents/Progetti/Python/SubBox/src/SetupUi.py to SetupUi.pyc
+skipping byte-compilation of /Users/paganotti/Documents/Progetti/Python/SubBox/src/SetupWizzard.py to SetupWizzard.pyc
+skipping byte-compilation of /Users/paganotti/Documents/Progetti/Python/SubBox/src/SubBox.py to SubBox.pyc
+skipping byte-compilation of /Users/paganotti/Documents/Progetti/Python/SubBox/build/bdist.macosx-10.6-universal/python2.6-semi_standalone/app/temp/PyQt4/QtCore.py to PyQt4/QtCore.pyc
+skipping byte-compilation of /Users/paganotti/Documents/Progetti/Python/SubBox/build/bdist.macosx-10.6-universal/python2.6-semi_standalone/app/temp/PyQt4/QtGui.py to PyQt4/QtGui.pyc
+skipping byte-compilation of /Users/paganotti/Documents/Progetti/Python/SubBox/build/bdist.macosx-10.6-universal/python2.6-semi_standalone/app/temp/pysvn/_pysvn_2_6.py to pysvn/_pysvn_2_6.pyc
+*** creating application bundle: SubBox ***
+copying build/bdist.macosx-10.6-universal/python2.6-semi_standalone/app/site-packages.zip -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Resources/lib/python2.6
+copying /Library/Frameworks/QtCore.framework/Contents/Info.plist -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/Contents
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore -> Versions/4/QtCore
+copying /Library/Frameworks/QtCore.framework/QtCore.prl -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug -> Versions/4/QtCore_debug
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug.dSYM
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug.dSYM/Contents
+copying /Library/Frameworks/QtCore.framework/QtCore_debug.dSYM/Contents/Info.plist -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug.dSYM/Contents
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug.dSYM/Contents/Resources
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug.dSYM/Contents/Resources/DWARF
+copying /Library/Frameworks/QtCore.framework/QtCore_debug.dSYM/Contents/Resources/DWARF/QtCore_debug -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug.dSYM/Contents/Resources/DWARF
+copying /Library/Frameworks/QtCore.framework/QtCore_debug.prl -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework
+copying /Library/Frameworks/QtCore.framework/Versions/4/QtCore -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/Versions/4
+copying /Library/Frameworks/QtCore.framework/Versions/4/QtCore_debug -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/Versions/4
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/Versions/4.0 -> 4
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/Versions/Current -> 4
+copying /Library/Frameworks/QtGui.framework/Contents/Info.plist -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Contents
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui -> Versions/4/QtGui
+copying /Library/Frameworks/QtGui.framework/QtGui.prl -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug -> Versions/4/QtGui_debug
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug.dSYM
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug.dSYM/Contents
+copying /Library/Frameworks/QtGui.framework/QtGui_debug.dSYM/Contents/Info.plist -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug.dSYM/Contents
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug.dSYM/Contents/Resources
+creating /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug.dSYM/Contents/Resources/DWARF
+copying /Library/Frameworks/QtGui.framework/QtGui_debug.dSYM/Contents/Resources/DWARF/QtGui_debug -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug.dSYM/Contents/Resources/DWARF
+copying /Library/Frameworks/QtGui.framework/QtGui_debug.prl -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Resources -> Versions/4/Resources
+copying /Library/Frameworks/QtGui.framework/Versions/4/QtGui -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Versions/4
+copying /Library/Frameworks/QtGui.framework/Versions/4/QtGui_debug -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Versions/4
+copying /Library/Frameworks/QtGui.framework/Versions/4/Resources/qt_menu.nib/classes.nib -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Versions/4/Resources/qt_menu.nib
+copying /Library/Frameworks/QtGui.framework/Versions/4/Resources/qt_menu.nib/info.nib -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Versions/4/Resources/qt_menu.nib
+copying /Library/Frameworks/QtGui.framework/Versions/4/Resources/qt_menu.nib/keyedobjects.nib -> /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Versions/4/Resources/qt_menu.nib
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Versions/4.0 -> 4
+linking /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/Versions/Current -> 4
+removing debug info: /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtCore.framework/QtCore_debug.dSYM
+removing debug info: /Users/paganotti/Documents/Progetti/Python/SubBox/dist/SubBox.app/Contents/Frameworks/QtGui.framework/QtGui_debug.dSYM
+stripping QtCore
+stripping QtGui_debug
+stripping SubBox
+stripping libqnmbearer.dylib
+stripping libqgif.dylib
+stripping QtGui.so
+stripping libqtaccessiblewidgets.dylib
+stripping libqtracegraphicssystem.dylib
+stripping QtCore.so
+stripping libqtiff.dylib
+stripping libqcncodecs.dylib
+stripping QtXml
+stripping libqglgraphicssystem.dylib
+stripping QtOpenGL
+stripping sip.so
+stripping QtNetwork
+stripping libqmng.dylib
+stripping QtXml
+stripping QtCore
+stripping libqgenericbearer.dylib
+stripping libqjpcodecs.dylib
+stripping QtDBus
+stripping _pysvn_2_6.so
+stripping QtOpenGL
+stripping QtGui
+stripping QtCore
+stripping libqjpeg.dylib
+stripping QtCore
+stripping QtCore_debug
+stripping QtDBus
+stripping libqkrcodecs.dylib
+stripping libqico.dylib
+stripping QtGui
+stripping _fsevents.so
+stripping QtNetwork
+stripping libqtwcodecs.dylib
+stripping saved 1072 bytes (160416028 / 160417100)
