@@ -1,0 +1,136 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '/Users/paganotti/Documents/Progetti/Qt/Setup3/creaaccountsetupui.ui'
+#
+# Created: Thu Apr 21 18:52:41 2011
+#      by: PyQt4 UI code generator 4.8.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt4 import QtCore, QtGui
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    _fromUtf8 = lambda s: s
+
+class Ui_creaAccountSetupUI(object):
+    def setupUi(self, creaAccountSetupUI):
+        creaAccountSetupUI.setObjectName(_fromUtf8("creaAccountSetupUI"))
+        creaAccountSetupUI.resize(540, 410)
+        creaAccountSetupUI.setMinimumSize(QtCore.QSize(540, 410))
+        creaAccountSetupUI.setMaximumSize(QtCore.QSize(540, 410))
+        self.lbTitolo = QtGui.QLabel(creaAccountSetupUI)
+        self.lbTitolo.setGeometry(QtCore.QRect(20, 20, 191, 16))
+        font = QtGui.QFont()
+        font.setPointSize(18)
+        self.lbTitolo.setFont(font)
+        self.lbTitolo.setObjectName(_fromUtf8("lbTitolo"))
+        self.frmSetup = QtGui.QFrame(creaAccountSetupUI)
+        self.frmSetup.setGeometry(QtCore.QRect(20, 50, 501, 301))
+        self.frmSetup.setFrameShape(QtGui.QFrame.StyledPanel)
+        self.frmSetup.setFrameShadow(QtGui.QFrame.Raised)
+        self.frmSetup.setObjectName(_fromUtf8("frmSetup"))
+        self.widget = QtGui.QWidget(self.frmSetup)
+        self.widget.setGeometry(QtCore.QRect(40, 20, 421, 261))
+        self.widget.setObjectName(_fromUtf8("widget"))
+        self.creaAccountVLayout = QtGui.QVBoxLayout(self.widget)
+        self.creaAccountVLayout.setSpacing(70)
+        self.creaAccountVLayout.setMargin(0)
+        self.creaAccountVLayout.setObjectName(_fromUtf8("creaAccountVLayout"))
+        self.creaAccountFLayout = QtGui.QFormLayout()
+        self.creaAccountFLayout.setFieldGrowthPolicy(QtGui.QFormLayout.FieldsStayAtSizeHint)
+        self.creaAccountFLayout.setHorizontalSpacing(5)
+        self.creaAccountFLayout.setVerticalSpacing(15)
+        self.creaAccountFLayout.setObjectName(_fromUtf8("creaAccountFLayout"))
+        self.lbNomeCreaAccount = QtGui.QLabel(self.widget)
+        self.lbNomeCreaAccount.setObjectName(_fromUtf8("lbNomeCreaAccount"))
+        self.creaAccountFLayout.setWidget(0, QtGui.QFormLayout.LabelRole, self.lbNomeCreaAccount)
+        self.txtNomeCreaAccount = QtGui.QLineEdit(self.widget)
+        self.txtNomeCreaAccount.setMinimumSize(QtCore.QSize(260, 0))
+        self.txtNomeCreaAccount.setBaseSize(QtCore.QSize(33, 0))
+        self.txtNomeCreaAccount.setObjectName(_fromUtf8("txtNomeCreaAccount"))
+        self.creaAccountFLayout.setWidget(0, QtGui.QFormLayout.FieldRole, self.txtNomeCreaAccount)
+        self.lbCognomeCreaAccount = QtGui.QLabel(self.widget)
+        self.lbCognomeCreaAccount.setObjectName(_fromUtf8("lbCognomeCreaAccount"))
+        self.creaAccountFLayout.setWidget(1, QtGui.QFormLayout.LabelRole, self.lbCognomeCreaAccount)
+        self.txtCognomeCreaAccount = QtGui.QLineEdit(self.widget)
+        self.txtCognomeCreaAccount.setMinimumSize(QtCore.QSize(260, 0))
+        self.txtCognomeCreaAccount.setObjectName(_fromUtf8("txtCognomeCreaAccount"))
+        self.creaAccountFLayout.setWidget(1, QtGui.QFormLayout.FieldRole, self.txtCognomeCreaAccount)
+        self.lbEmailCreaAccount = QtGui.QLabel(self.widget)
+        self.lbEmailCreaAccount.setObjectName(_fromUtf8("lbEmailCreaAccount"))
+        self.creaAccountFLayout.setWidget(2, QtGui.QFormLayout.LabelRole, self.lbEmailCreaAccount)
+        self.txtEmailCreaAccount = QtGui.QLineEdit(self.widget)
+        self.txtEmailCreaAccount.setMinimumSize(QtCore.QSize(260, 0))
+        self.txtEmailCreaAccount.setObjectName(_fromUtf8("txtEmailCreaAccount"))
+        self.creaAccountFLayout.setWidget(2, QtGui.QFormLayout.FieldRole, self.txtEmailCreaAccount)
+        self.lbPassowordCreaAccount = QtGui.QLabel(self.widget)
+        self.lbPassowordCreaAccount.setObjectName(_fromUtf8("lbPassowordCreaAccount"))
+        self.creaAccountFLayout.setWidget(3, QtGui.QFormLayout.LabelRole, self.lbPassowordCreaAccount)
+        self.txtPassowordCreaAccount = QtGui.QLineEdit(self.widget)
+        self.txtPassowordCreaAccount.setMinimumSize(QtCore.QSize(260, 0))
+        self.txtPassowordCreaAccount.setEchoMode(QtGui.QLineEdit.Password)
+        self.txtPassowordCreaAccount.setObjectName(_fromUtf8("txtPassowordCreaAccount"))
+        self.creaAccountFLayout.setWidget(3, QtGui.QFormLayout.FieldRole, self.txtPassowordCreaAccount)
+        self.lbVerificaPassCreaAccount = QtGui.QLabel(self.widget)
+        self.lbVerificaPassCreaAccount.setObjectName(_fromUtf8("lbVerificaPassCreaAccount"))
+        self.creaAccountFLayout.setWidget(4, QtGui.QFormLayout.LabelRole, self.lbVerificaPassCreaAccount)
+        self.txtVerificaPassCreaAccount = QtGui.QLineEdit(self.widget)
+        self.txtVerificaPassCreaAccount.setMinimumSize(QtCore.QSize(260, 0))
+        self.txtVerificaPassCreaAccount.setEchoMode(QtGui.QLineEdit.Password)
+        self.txtVerificaPassCreaAccount.setObjectName(_fromUtf8("txtVerificaPassCreaAccount"))
+        self.creaAccountFLayout.setWidget(4, QtGui.QFormLayout.FieldRole, self.txtVerificaPassCreaAccount)
+        self.creaAccountVLayout.addLayout(self.creaAccountFLayout)
+        self.lbErrorCreaAccount = QtGui.QLabel(self.widget)
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.lbErrorCreaAccount.setFont(font)
+        self.lbErrorCreaAccount.setText(_fromUtf8(""))
+        self.lbErrorCreaAccount.setAlignment(QtCore.Qt.AlignCenter)
+        self.lbErrorCreaAccount.setObjectName(_fromUtf8("lbErrorCreaAccount"))
+        self.creaAccountVLayout.addWidget(self.lbErrorCreaAccount)
+        self.bIndietro = QtGui.QPushButton(creaAccountSetupUI)
+        self.bIndietro.setEnabled(True)
+        self.bIndietro.setGeometry(QtCore.QRect(300, 370, 114, 32))
+        self.bIndietro.setObjectName(_fromUtf8("bIndietro"))
+        self.bAvanti = QtGui.QPushButton(creaAccountSetupUI)
+        self.bAvanti.setGeometry(QtCore.QRect(410, 370, 114, 32))
+        sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Preferred, QtGui.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.bAvanti.sizePolicy().hasHeightForWidth())
+        self.bAvanti.setSizePolicy(sizePolicy)
+        self.bAvanti.setFocusPolicy(QtCore.Qt.ClickFocus)
+        self.bAvanti.setObjectName(_fromUtf8("bAvanti"))
+
+        self.retranslateUi(creaAccountSetupUI)
+        QtCore.QMetaObject.connectSlotsByName(creaAccountSetupUI)
+        creaAccountSetupUI.setTabOrder(self.txtNomeCreaAccount, self.txtCognomeCreaAccount)
+        creaAccountSetupUI.setTabOrder(self.txtCognomeCreaAccount, self.txtEmailCreaAccount)
+        creaAccountSetupUI.setTabOrder(self.txtEmailCreaAccount, self.txtPassowordCreaAccount)
+        creaAccountSetupUI.setTabOrder(self.txtPassowordCreaAccount, self.txtVerificaPassCreaAccount)
+        creaAccountSetupUI.setTabOrder(self.txtVerificaPassCreaAccount, self.bAvanti)
+        creaAccountSetupUI.setTabOrder(self.bAvanti, self.bIndietro)
+
+    def retranslateUi(self, creaAccountSetupUI):
+        creaAccountSetupUI.setWindowTitle(QtGui.QApplication.translate("creaAccountSetupUI", "Crea Account SubBox", None, QtGui.QApplication.UnicodeUTF8))
+        self.lbTitolo.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Crea Account SubBox", None, QtGui.QApplication.UnicodeUTF8))
+        self.lbNomeCreaAccount.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Nome:", None, QtGui.QApplication.UnicodeUTF8))
+        self.lbCognomeCreaAccount.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Cognome:", None, QtGui.QApplication.UnicodeUTF8))
+        self.lbEmailCreaAccount.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Email:", None, QtGui.QApplication.UnicodeUTF8))
+        self.lbPassowordCreaAccount.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Password:", None, QtGui.QApplication.UnicodeUTF8))
+        self.lbVerificaPassCreaAccount.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Verifica Password:", None, QtGui.QApplication.UnicodeUTF8))
+        self.bIndietro.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Indietro", None, QtGui.QApplication.UnicodeUTF8))
+        self.bAvanti.setText(QtGui.QApplication.translate("creaAccountSetupUI", "Avanti", None, QtGui.QApplication.UnicodeUTF8))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtGui.QApplication(sys.argv)
+    creaAccountSetupUI = QtGui.QDialog()
+    ui = Ui_creaAccountSetupUI()
+    ui.setupUi(creaAccountSetupUI)
+    creaAccountSetupUI.show()
+    sys.exit(app.exec_())
+
