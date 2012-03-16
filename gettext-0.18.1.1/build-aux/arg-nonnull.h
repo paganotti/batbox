@@ -1,3 +1,4 @@
+scritto
 /* A C macro for declaring that specific arguments must not be NULL.
    Copyright (C) 2009, 2010 Free Software Foundation, Inc.
 
